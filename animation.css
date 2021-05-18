@@ -1,0 +1,32 @@
+p {
+    height: 7rem;
+    width: 7rem;
+    background-color: yellow;
+    border-radius: 600px;
+    /*transition: 2s*/
+    position: relative;
+    animation: move 2s infinite;
+  }
+  
+  @keyframes move {
+    from {left:0px;}
+      to {left:300px;}
+  }
+  
+  div {
+    height: 7rem;
+    width: 7rem;
+    background-color: yellow;
+    border-radius: 600px;
+    /*transition: 2s*/
+    position: relative;
+    animation: move 3s infinite; 
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes move {
+    from {left:0px;}
+      to {left:300px;}
+  }
+  
+  
